@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Validation</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Syne&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Create Account</h1>
+    </div>
+    <form method="GET" class="form" id="form">
+
+      <div class="form-container success">
+        <label for="name">Full name</label>
+        <input type="text" placeholder="Enter your name" id="name" required>
+        <small>Error message</small>
+      </div>
+
+      <div class="form-container">
+        <label for="username">Username</label>
+        <input type="text" placeholder="Enter username" id="username" required>
+        <small>Error message</small>
+      </div>
+
+      <div class="form-container">
+        <label for="password">Password</label>
+        <input type="password" placeholder="Enter password"  id="password" required>
+        <small>Error message</small>
+      </div>
+
+      <div class="form-container">
+        <label for="email">Email</label>
+        <input type="email" placeholder="Enter email adress" id="email" required>
+        <small>Error message</small>
+      </div>
+      <button class="submit">Submit</button>
+    </form>
+  </div>
+  
+<script src="main.js"></script>
+</body>
+</html>
